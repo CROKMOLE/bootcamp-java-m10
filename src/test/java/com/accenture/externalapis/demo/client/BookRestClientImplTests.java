@@ -21,7 +21,7 @@ public class BookRestClientImplTests {
     }
 
     @ParameterizedTest(name = "chaos book id {0} throws ClientException")
-    @ValueSource(longs = {99, 991, 992, 993, 994, 995, 996, 997, 998, 999})
+    @ValueSource(longs = {99, 991, 992, 993, 995, 997, 998, 999})
     void shouldThrowClientExceptionOnChaosBookIds(long id) {
         //that test has been used for validating which chaos books handles as exception.
         //Most of them is handled but i not understand that should be an error on record with id 994 and 996

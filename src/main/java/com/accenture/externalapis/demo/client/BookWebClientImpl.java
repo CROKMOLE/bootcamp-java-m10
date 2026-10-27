@@ -27,6 +27,7 @@ public class BookWebClientImpl implements BookWebClient {
 
         //that test has been used for validating which chaos books handles as exception.
         //Most of them is handled but i not understand that should be an error on record with id 994 and 996
+        //understood 994, it's to many request and it handles and handled correctly too.
         //Please add comments in the feedback. In advice thank you
 
         //request for single value response
@@ -47,6 +48,7 @@ public class BookWebClientImpl implements BookWebClient {
 
         //that test has been used for validating which chaos books handles as exception.
         //Most of them is handled but i not understand that should be an error on record with id 994 and 996
+        //understood 994, it's to many request and it handles and handled correctly too.
         //Please add comments in the feedback. In advice thank you
 
         //request for multiple values response
